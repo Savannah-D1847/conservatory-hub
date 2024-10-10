@@ -1,0 +1,192 @@
+body {
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 2.5rem;
+}
+@media only screen and (max-width: 500px) {
+    .navbar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+    }
+    .navbar li a{
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body{
+        background: rgba(45,231,253,1);
+        background-image: linear-gradient(0deg, rgba(13, 3, 75,.7) 10%, rgba(45, 231, 253, 1) 100%);
+    }   
+}
+@media only screen and (min-width: 901px) {
+    body {
+        background: rgb(13,3,75);
+        background-image: linear-gradient(0deg, rgba(13,3,75,1) 0%, rgba(45,231,253,1) 100%);
+    }
+}
+.banner{
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.banner img{
+    width: auto;
+    max-height: 6.25rem;
+
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, .3);
+    overflow: hidden;
+    
+}
+.navbar li{
+    display: inline;
+}
+.navbar a{
+    text-align: center;
+    color: rgb(7, 97, 165);
+    text-decoration: none;
+    float: left;
+    padding: 1rem 2rem;
+
+}
+.navbar a:hover{
+    background-color: rgba(5, 27, 75, 0.526);
+    color: white;
+}
+.homelogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: .5rem;
+    max-height: 200px;
+    max-width: 200px;
+}
+.nothomelogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5rem;
+    width: 20%;
+    box-shadow: 5px 5px 5px rgb(24, 9, 117);
+    max-height: 100px;
+    max-width: 100px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    color: rgb(4, 11, 103);
+}
+
+.statistics{
+    text-align: center;
+
+}
+dt, dd{
+    padding: .5rem;
+}
+dt{
+    font-weight: bold;
+}
+.statistics a{
+    font-size: 13px;
+    color: white;
+    
+}
+figure{
+    font-style: italic;
+}
+
+figcaption{
+    text-align: center;
+}
+
+figcaption a{
+    color: white;
+    font-size: 13px;
+}
+
+#wrapper{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.colorwhite{
+    color: white;
+}
+.colornavy{
+    color: rgb(4, 11, 103);
+}
+#facts{
+    border-style: dotted;
+}
+#facts li{
+    list-style-type: circle;
+    margin: .938rem;
+}
+
+.sources a{
+    color:white;
+    font-size: .75rem;
+}
+.sources a:hover{
+    color:blue;
+
+}
+.involvedideas li{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: rgb(2, 2, 92) ;
+    text-align: center;
+}
+.donatelist a{
+    color: white;
+}
+.donatelist a:hover{
+    color:blue;
+}
+.centerimages{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gallery{
+    text-align: center;
+}
+.galleryimg img{
+    width: 70%;
+    height: auto;
+}
+#contactform fieldset{
+    border: none;   
+    margin: .3rem;
+    padding: .3rem;
+    
+}
+#contactform label{
+    display: block;
+}
+#contactform{
+    background-color: rgba(45,231,253,.2);
+    color: rgb(2, 2, 92);
+    font-weight: bold;
+    border-radius: .3rem;
+}
